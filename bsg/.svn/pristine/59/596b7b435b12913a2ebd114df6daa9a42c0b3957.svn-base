@@ -1,0 +1,43 @@
+<html>
+<head>
+    <script src="${request.getContextPath()}/js/pages/sightsList.js"></script>
+    <link rel="stylesheet" href="${request.getContextPath()}/css/list.css">
+    <script>
+        $(function () {
+            uncheckAll();
+            initTooltip();
+            bindActions();
+        });
+    </script>
+</head>
+<body>
+    #set($page_title = "Sights list")
+    <header>
+        <h2>#springMessage("messages.sights_list.title")</h2>
+    </header>
+
+    <form accept-charset="utf-8" id="selectedSights" name="selectedSights" method="POST">
+        <div class="controlBar">
+            <span id="wrapRouteButton"><button type="button" id="routeButton">#springMessage("messages.sights_list.show_route")</button></span>
+            <span id="wrapMapButton"><button type="button" id="mapButton">#springMessage("messages.sights_list.show_on_map")</button></span>
+            <span id="wrapGuideButton"><button type="button" id="guideButton">#springMessage("messages.sights_list.add_to_guide")</button></span>
+        </div>
+        <table>
+            #foreach($sight in $sightsList)
+                <tr>
+                    <td>
+                        <a href="${request.getContextPath()}${request.getServletPath()}/sights/description/$sight.code">$sight.name</a>
+                    </td>
+                    <td>
+                        <a href="${request.getContextPath()}${request.getServletPath()}/map/selected-sights/$sight.id">#springMessage("messages.sights_list.show_on_map")</a>
+                    </td>
+                    <td>
+                        <input type='checkbox' id="sightsId" name="sightsId" value="$sight.id">
+                        <label for="sightsId">#springMessage("messages.sights_list.want_to_visit")</label>
+                    </td>
+                </tr>
+            #end
+        </table>
+    </form>
+</body>
+</html>

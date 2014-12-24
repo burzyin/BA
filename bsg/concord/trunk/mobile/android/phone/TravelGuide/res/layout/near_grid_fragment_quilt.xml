@@ -1,0 +1,3 @@
+<com.jake.quiltview.QuiltView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quiltView" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="5dip"></com.jake.quiltview.QuiltView>

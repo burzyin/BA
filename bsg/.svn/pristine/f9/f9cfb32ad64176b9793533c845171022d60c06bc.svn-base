@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="locale-params.xml"/>
+
+    <bean id="abstractController" class="com.exadel.belarusattractions.controllers.AbstractController">
+        <property name="localeValidator" ref="localeValidator"/>
+    </bean>
+
+    <bean id="navigationBarController" class="com.exadel.belarusattractions.controllers.NavigationBarController">
+        <property name="localeValidator" ref="localeValidator"/>
+    </bean>
+
+    <bean id="localeHandlerInterceptor" class="com.exadel.belarusattractions.controllers.LocaleHandlerInterceptor">
+        <property name="localeValidator" ref="localeValidator"/>
+    </bean>
+
+    <bean id="exceptionResolver" class="com.exadel.belarusattractions.exception_resolver.ExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="com.exadel.belarusattractions.utils.localization.LocaleException">
+                    pages/error/locale-does-not-exist
+                </prop>
+            </props>
+        </property>
+        <property name="localeValidator" ref="localeValidator"/>
+        <property name="order" value="1"/>
+    </bean>
+</beans>

@@ -1,0 +1,9 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    #set($page_title = "Error page")
+    LOCALE DOES NOT EXIST OR IS NOT SUPPORTED
+</body>
+</html>

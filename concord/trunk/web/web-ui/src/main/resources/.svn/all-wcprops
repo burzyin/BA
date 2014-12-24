@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/resources
+END
+locale-params.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/resources/locale-params.xml
+END
+factories-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/exadel/belarus_attractions/!svn/ver/181/concord/trunk/web/web-ui/src/main/resources/factories-config.xml
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/resources/messages.properties
+END
+velocity-configuration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/exadel/belarus_attractions/!svn/ver/181/concord/trunk/web/web-ui/src/main/resources/velocity-configuration.xml
+END
+home.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/resources/home.properties
+END
+messages_ru.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/resources/messages_ru.properties
+END
+messages_be.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/resources/messages_be.properties
+END
+home_be.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/resources/home_be.properties
+END
+home_ru.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/resources/home_ru.properties
+END
+messages_de.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/resources/messages_de.properties
+END
+home_de.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/resources/home_de.properties
+END
+localization-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/resources/localization-beans.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/exadel/belarus_attractions/!svn/ver/120/concord/trunk/web/web-ui/src/main/resources/log4j.xml
+END

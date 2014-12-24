@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#88000000">
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Page title"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp"
+            android:background="@android:color/transparent"
+            android:onClick="addButtonProcess"
+            android:src="@drawable/add_button"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp"
+            android:background="@android:color/transparent"
+            android:onClick="backButtonProcess"
+            android:src="@drawable/back_button"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_action_bar"
+        android:layout_below="@+id/title_bar"
+        android:gravity="bottom|center_horizontal">
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/open_map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_switcher"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/title_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/top_switcher_bg"
+        android:gravity="center"
+        android:visibility="gone">
+		<TextView android:layout_width="wrap_content"
+        		  android:layout_height="wrap_content"
+        		  android:textColor="@android:color/white"
+        		  android:textSize="15sp"
+        		  android:id="@+id/distance_text_view"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/bottom_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/bottom_action_bar"
+        android:background="@drawable/bottom_bg"
+        android:gravity="bottom"
+        android:padding="2dp"
+        android:paddingTop="2dp" >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab1"
+            android:text="Мой профиль"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab2"
+            android:text="Места рядом"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab3"
+            android:text="Популярное"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab4"
+            android:text="Поиск"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab5_a"
+            android:text="Новый маршрут"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</RelativeLayout>

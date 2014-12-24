@@ -1,0 +1,109 @@
+header h2 {
+    text-align: center;
+}
+
+article {
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.slidesWrapper {
+    width: 800px;
+    height: auto;
+    min-height: 750px;
+    position: relative;
+}
+
+.slides {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 100;
+}
+
+.slides_container {
+    width: 870px;
+}
+
+.slides_container div.slide {
+    width: 870px;
+}
+
+.slides_container div img {
+    display: block;
+    width: 870px;
+    height: 600px;
+}
+
+/*.slides .next, .slides .prev {*/
+    /*position: absolute;*/
+    /*top: 175px;*/
+    /*left: -45px;*/
+    /*width: 24px;*/
+    /*height: 43px;*/
+    /*display: block;*/
+    /*z-index: 101;*/
+/*}*/
+
+/*.slides .next {*/
+    /*left: 590px;*/
+/*}*/
+
+.pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+}
+
+.pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    float: left;
+    overflow: hidden;
+}
+
+.pagination li.current a, .pagination li.current a:hover {
+    background-position: 0 -13px
+}
+
+.pagination li a:hover {
+    background-position: 0 -26px
+}
+
+.slides a:link, .slides a:visited {
+    color: #8db81d
+}
+
+.slides a:hover, .slides a:active {
+    color: #40d342
+}
+
+.caption {
+    z-index: 500;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    height: 50px;
+    padding: 5px 20px 0 20px;
+    background: #000;
+    background: rgba(0, 0, 0, .5);
+    width: 870px;
+    font-size: 1.3em;
+    line-height: 1.33;
+    color: #fff;
+    border-top: 1px solid #000;
+    text-shadow: none;
+}
+
+.caption p {
+    padding-top: 7px;
+}

@@ -1,0 +1,24 @@
+.controlBar {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+button {
+    display: inline;
+    margin-right: 20px;
+}
+
+header h2 {
+    text-align: center;
+    padding: 7px;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+}
+
+table td {
+    padding: 3px;
+}

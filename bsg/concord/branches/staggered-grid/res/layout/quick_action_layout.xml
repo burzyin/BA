@@ -1,0 +1,97 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/place_description_table"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@id/place_description_image">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+
+        <Button
+            android:id="@+id/information_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.33"
+            android:background="@android:color/background_light"
+            android:drawableTop="@drawable/i"
+            android:gravity="center"
+            android:onClick="clickProcess"
+            android:text="@string/information_button_text"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/gallery_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.33"
+            android:background="@android:color/background_light"
+            android:drawableTop="@drawable/gallery"
+            android:gravity="center"
+            android:onClick="clickProcess"
+            android:text="@string/gallery_button_text"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/history_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.33"
+            android:background="@android:color/background_light"
+            android:drawableTop="@drawable/history"
+            android:gravity="center"
+            android:onClick="clickProcess"
+            android:text="@string/history_button_text"
+            android:textSize="10sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+
+        <Button
+            android:id="@+id/routes_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.33"
+            android:background="@android:color/background_light"
+            android:drawableTop="@drawable/marker"
+            android:gravity="center"
+            android:onClick="clickProcess"
+            android:text="@string/routes_button_text"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/secrets_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.33"
+            android:background="@android:color/background_light"
+            android:drawableTop="@drawable/secrets"
+            android:gravity="center"
+            android:onClick="clickProcess"
+            android:text="@string/secrets_button_text"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/audio_guide_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.33"
+            android:background="@android:color/background_light"
+            android:drawableTop="@drawable/audio_guide"
+            android:gravity="center"
+            android:onClick="clickProcess"
+            android:text="@string/guides_button_text"
+            android:textSize="10sp" />
+    </TableRow>
+</TableLayout>

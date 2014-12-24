@@ -1,0 +1,73 @@
+<section>
+    <header>
+        <h2>#springMessage("messages.about_page.title")</h2>
+    </header>
+    <article class="about">
+        <header>
+            <h3>#springMessage("messages.about_page.summary")</h3>
+        </header>
+        <p>The republic of Belarus is situated in the center of Europe on the watershed of the Baltic and Black Seas. The capital is the city of Minsk. Belarus borders on Poland, Lithuania, Latvia, Russia and Ukraine. The total length of the state border makes up 2,969 km. Geographic and climatic conditions favor the development of transport and economic relations.</p>
+        <p>The distance between Minsk and the capitals of neighboring states is as follows: </p>
+        <ul>
+            <li>Vilnius -180 km</li>
+            <li>Riga - 470 km</li>
+            <li>Warsaw - 550 km</li>
+            <li>Kiev - 580 km</li>
+            <li>Moscow - 700 km</li>
+        </ul>
+        <br>
+        <p><strong>General information:</strong></p>
+        <p><strong>Languages</strong><br>
+            Russian, Belarusian</p>
+        <p>
+            <strong>Religions</strong><br>
+            Orthodox Christians (70%)<br>
+            Catholics (15-20%)
+        </p>
+        <p>
+            <strong>Time</strong><br>
+            GMT + 2
+        </p>
+        <p>
+            <strong>Electricity</strong><br>
+        	    ~ 220 V, 50 Hz, European socket (2-pins)
+        </p>
+    </article class="about">
+    <article class="about">
+        <header>
+            <h3>#springMessage("messages.about_page.territory")</h3>
+        </header>
+         <p>The territory of Belarus totals 207.6 thousand sq km. It stretches from west to east for 650 km and from north to south for 560 km. The republic ranks thirteenth in size among the European states and fifth in population among the CIS countries. In comparison with other European countries, Belarus is slightly smaller than Great Britain and Rumania, 2.2 times as big as Portugal and Hungary and 5 times as big as the Netherlands and Switzerland.</p>
+         <p>Belarus consists of 6 regions (oblasts’ in Russian, voblasts’ in Belarussian): the Brest, Vitebsk, Gomel, Grodno, Minsk and Mogiliov regions, which include 118 political units called districts (rayon in Russian) and the city of Minsk.</p>
+    </article class="about">
+    <article class="about">
+        <header>
+            <h3>#springMessage("messages.about_page.population")</h3>
+        </header>
+        <p>There are 110 towns and 101 urban-type settlements in the republic. The population of 7 towns numbers from 100 to 200 thousand, 7 cities have the population from 200 to 500 thousand. At present 1.8 million inhabitants live in the capital.</p>
+       <p><strong>Major cities</strong><br>
+                    Brest (298,000)<br>
+                    Grodno (315,000)<br>
+                    Gomel (492,000)<br>
+                    Mogiliov (365,000)<br>
+                    Vitebsk (350,000)</p>
+       <p>Today 130 nationalities live together with Belarusians, who constitute 81.2% of the country's population.</p>
+       <p><strong>Ethnic composition</strong><br>
+                    Belarusians (81 per cent)<br>
+                    Russians (11 per cent)<br>
+                    Poles (4 per cent)</p>
+    </article class="about">
+    <article class="about">
+        <header>
+            <h3>#springMessage("messages.about_page.climate")</h3>
+        </header>
+        <p>Belarus has a continental climate. Average January temperatures are between -4°C and -8°C, with frosts experienced for five to six months of the year. The warmest month is July, when temperatures can reach up to 30°C, but the average temperature is 18°C. June and August are the wettest months.</p>
+    </article class="about">
+    <article class="about">
+        <header>
+            <h3>#springMessage("messages.about_page.money")</h3>
+        </header>
+        <p>The Belarusian rouble (BR) is the national currency, and the money's wide spectrum of bill denominations is overwhelming to the newcomer. There are BR10, BR20, BR50, BR100, BR500, BR1000, BR5000, BR10,000, BR20,000, BR50,000 and BR100,000 notes. You'll quickly acquire a thick wad of largely worthless notes. Thank god there are no coins. Ensure you change any remaining roubles before leaving Belarus, as it's almost impossible to exchange the currency outside the country.</p>
+        <p>ATMs and currency-exchange offices are not hard to find in Belrusian cities. Major credit cards are accepted at many of the nicer hotels, restaurants, and supermarkets in Minsk, but travellers cheques are not worth the effort. Some businesses quote prices in euros or US dollars (using the abbreviation YE), but payment is only accepted in roubles.</p>
+    </article class="about">
+</section>

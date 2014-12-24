@@ -1,0 +1,90 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="#88000000">
+
+        <LinearLayout
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true" 
+            android:background="#00ff00">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top_switcher"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/title_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/top_switcher_bg"
+            android:orientation="vertical" />
+
+        <GridView
+            android:id="@+id/grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_action_bar"
+            android:layout_below="@+id/top_switcher"
+            android:animateLayoutChanges="true"
+            android:numColumns="2"
+		    android:verticalSpacing="5dp"
+		    android:horizontalSpacing="5dp"
+		    android:stretchMode="columnWidth"
+		    android:gravity="center"
+		    android:padding="5dp"
+		    android:alwaysDrawnWithCache="true"/>
+        
+        <LinearLayout
+            android:id="@id/bottom_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/bottom_action_bar"
+            android:background="@drawable/bottom_bg"
+            android:gravity="bottom" 
+            android:padding="2dp"
+            android:paddingTop="2dp">
+			<Button android:layout_width="fill_parent"
+            		android:layout_height="fill_parent"
+            		android:text="Мой профиль"
+            		android:drawableTop="@drawable/profile"
+            		android:layout_weight="0.2"
+            		android:background="@android:color/transparent"
+            		android:textSize="10sp"/>
+			<Button android:layout_width="fill_parent"
+            		android:layout_height="fill_parent"
+            		android:text="Места рядом"
+            		android:drawableTop="@drawable/places_near"
+            		android:layout_weight="0.2"
+            		android:background="@android:color/transparent"
+            		android:textSize="10sp"/>
+			<Button android:layout_width="fill_parent"
+            		android:layout_height="fill_parent"
+            		android:text="Популярное"
+            		android:drawableTop="@drawable/popular"
+            		android:layout_weight="0.2"
+            		android:background="@android:color/transparent"
+            		android:textSize="10sp"/>
+			<Button android:layout_width="fill_parent"
+            		android:layout_height="fill_parent"
+            		android:text="Поиск"
+            		android:drawableTop="@drawable/search"
+            		android:layout_weight="0.2"
+            		android:background="@android:color/transparent"
+            		android:textSize="10sp"/>
+			<Button android:layout_width="fill_parent"
+            		android:layout_height="fill_parent"
+            		android:text="Новый маршрут"
+            		android:drawableTop="@drawable/new_route"
+            		android:layout_weight="0.2"
+            		android:background="@android:color/transparent"
+            		android:textSize="10sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>

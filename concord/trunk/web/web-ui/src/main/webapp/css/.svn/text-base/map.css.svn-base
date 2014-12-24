@@ -1,0 +1,40 @@
+p {
+    text-align: left;
+}
+
+.infoWindow img {
+    float: left;
+    max-height: 100px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.infoWindow p {
+    width: 300px;
+}
+
+.routeButton {
+    position: fixed;
+    top: 154px;
+    right: 257px;
+    z-index: 100;
+    width: 100px;
+}
+
+#routeWrapper {
+    height: 720px;
+    width: 300px;
+    position: fixed;
+    top: 188px;
+    right: 30px;
+    overflow: auto;
+    text-align: center;
+}
+
+#routePlaceholder table {
+    font-size: small;
+}
+
+#mapWrapper {
+    height: 78%;
+}

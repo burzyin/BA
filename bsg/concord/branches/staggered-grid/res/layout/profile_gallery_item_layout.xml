@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/gallery_item_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:src="@drawable/troitsk"
+        android:contentDescription="@string/gallery_item_image" />
+
+    <TextView
+        android:id="@+id/gallery_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/gallery_item_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="#66000000" />
+
+    <RelativeLayout
+        android:layout_height="145dp"
+        android:layout_width="40dp"
+        android:layout_alignRight="@id/gallery_item_image"
+        android:layout_marginTop="11dp"
+        android:background="#66000000"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/visited"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:text="@string/number"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:drawableTop="@drawable/eye"
+            android:background="@android:color/transparent"
+            android:onClick="viewButtonProcess"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_below="@id/visited"
+            android:text="@string/number"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:drawableTop="@drawable/heart"
+            android:background="@android:color/transparent"
+            android:onClick="likeButtonProcess"/>
+    </RelativeLayout>
+</RelativeLayout>

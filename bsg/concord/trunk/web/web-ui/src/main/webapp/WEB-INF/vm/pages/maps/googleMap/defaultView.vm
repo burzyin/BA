@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    #set($key = "$properties.key" + "&language=" + ${locale})
+
+    <script type="text/javascript" src=$key></script>
+    <script charset="utf-8" src="${request.getContextPath()}/js/maps/googleMap/control.js"></script>
+   	<link rel="stylesheet" type="text/css" href="${request.getContextPath()}/css/map.css">
+
+
+    <script type="text/javascript">
+        var mapSettings = $.parseJSON($properties.toJsString());
+        var sights = $.parseJSON($sights);
+        var route = $route;
+
+        $(function () {
+            initGoogleMap('mapWrapper', 'routePlaceholder', 'routeWrapper', mapSettings, sights, route);
+            $('#calcRoute').click(function () {
+                calcRoute($("#routeWrapper"));
+            });
+            $('#find').click(function () {
+                findCurrentLocation();
+            });
+            $(".routeButton > button").click(function () {
+                $("#routeWrapper").effect("fade", "slow");
+            })
+
+        });
+
+    </script>
+    #set($page_title = "Belarus Attractions on Map")
+</head>
+
+<body>
+    <span class="routeButton"><button type="button"><small>#springMessage("messages.map.route")</small></button></span>
+    <div id="routeWrapper" hidden>
+        <button type="button" id="find">#springMessage("messages.map.find_me")</button>
+        <button type="button" id="calcRoute">#springMessage("messages.map.calculate_route")</button>
+        <div id="routePlaceholder"></div>
+    </div>
+    <div id="mapWrapper"></div>
+
+
+</body>
+
+</html>

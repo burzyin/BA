@@ -1,0 +1,9 @@
+{"places-list":[
+	{"_id":1,"title":"Троицкое предместье", "icon":"troitsk.png", "longitude":"53.908574", "latitude":"27.556074"},
+	{"_id":2,"title":"Раковское предместье", "icon":"rakovsk.png", "longitude":"53.902709", "latitude":"27.561632"},
+	{"_id":3,"title":"Костел Святого Роха", "icon":"castel.png", "longitude":"53.910953", "latitude":"27.579917"},
+	{"_id":4,"title":"Костёл Святого Симеона и Святой Елены", "icon":"castel2.png", "longitude":"53.896393", "latitude":"27.547296"},
+	{"_id":5,"title":"Кафедральный собор Сошествия Святого Духа", "icon":"sobor.png", "longitude":"53.905097", "latitude":"27.555789"},
+	{"_id":6,"title":"Национальная библиотека", "icon":"library.png", "longitude":"53.931060", "latitude":"27.645320"},
+	{"_id":7,"title":"Лошицкий парк", "icon":"park.png", "longitude":"53.854917", "latitude":"27.581273"}
+]}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="classpath:googleMap-config.xml"/>
+    <import resource="classpath:openStreetMap-config.xml"/>
+
+    <bean id="routesGenerator" class="com.exadel.belarusattractions.generators.RoutesGenerator"/>
+
+    <bean id="mapPropertiesService" class="com.exadel.belarusattractions.service.MapServiceImpl">
+        <property name="defaultMapProperties" ref="googleMapProperties"/>
+        <property name="googleMapProperties" ref="googleMapProperties"/>
+        <property name="openStreetMapProperties" ref="openStreetMapProperties"/>
+    </bean>
+
+    <bean id="routesDao" class="com.exadel.belarusattractions.dao.RoutesDaoImpl">
+        <property name="routesGenerator" ref="routesGenerator"/>
+    </bean>
+
+    <bean id="routesService" class="com.exadel.belarusattractions.service.RoutesServiceImpl">
+        <property name="routesDao" ref="routesDao"/>
+    </bean>
+
+</beans>

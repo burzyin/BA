@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#88000000" >
+
+    <RelativeLayout
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true" 
+            android:background="@drawable/title_bar_bg">
+			<TextView android:layout_width="wrap_content"
+            			android:layout_height="wrap_content"
+            			android:textColor="@android:color/white"
+            			android:textSize="25sp"
+            			android:text="Мой профиль"
+            			android:layout_centerHorizontal="true"
+            			android:layout_centerVertical="true"/>
+		</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/top_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+			<TextView android:layout_width="wrap_content"
+        			  android:layout_height="wrap_content"
+        			  android:layout_gravity="center"
+        			  android:textColor="@android:color/white"
+        			  android:text="Мне рекомендуют:"/>
+			<Gallery
+		            android:id="@+id/m_gallery"
+		            android:layout_width="fill_parent" 
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+		            android:padding="-5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_action_bar"
+        android:layout_below="@+id/top_gallery"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/near_list_bg"/>
+
+    <LinearLayout
+        android:id="@id/bottom_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/bottom_action_bar"
+        android:background="@drawable/bottom_bg"
+        android:gravity="bottom"
+        android:padding="2dp"
+        android:paddingTop="2dp" >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/profile"
+            android:text="Мой профиль"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/places_near"
+            android:text="Места рядом"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/popular"
+            android:text="Популярное"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/search"
+            android:text="Поиск"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/new_route"
+            android:text="Новый маршрут"
+            android:textSize="10sp" />
+    </LinearLayout>
+</RelativeLayout>

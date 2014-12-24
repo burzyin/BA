@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers
+END
+MapController.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers/MapController.java
+END
+RoutesController.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers/RoutesController.java
+END
+SightsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers/SightsController.java
+END
+SightDescriptionController.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers/SightDescriptionController.java
+END
+AbstractController.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers/AbstractController.java
+END
+NavigationBarController.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers/NavigationBarController.java
+END
+LocaleHandlerInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers/LocaleHandlerInterceptor.java
+END
+CommonMethodController.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/web-ui/src/main/java/com/exadel/belarusattractions/controllers/CommonMethodController.java
+END

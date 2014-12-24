@@ -1,0 +1,54 @@
+messages.application.title=Wei\u00DFrussland
+
+messages.search=Suche
+
+messages.navigation_bar.home=Zuhause
+messages.navigation_bar.see_on_map=Karte anzeigen
+messages.navigation_bar.sights=Sehenswertes
+messages.navigation_bar.routes=Routen
+
+messages.home_page.change_language.title=Sprache \u00E4ndern
+messages.home_page.change_language.en=English
+messages.home_page.change_language.ru=\u0420\u0443\u0441\u0441\u043A\u0438\u0439
+messages.home_page.change_language.be=\u0411\u0435\u043B\u0430\u0440\u0443\u0441\u043A\u0430\u044F
+messages.home_page.change_language.de=Deutsch
+
+messages.home_page.welcome=Willkommen in Wei\u00DFrussland
+messages.home_page.about=Finden sie mehr \u00FCber Belarus
+
+messages.about_page.title=Einige fakten \u00FCber Belarus
+messages.about_page.summary=Zusammenfassung
+messages.about_page.territory=Gebiet
+messages.about_page.population=Bev\u00F6lkerung
+messages.about_page.climate=Klima
+messages.about_page.money=Geld
+
+messages.sights_list.title=Sehenswertes liste
+messages.sights_list.show_route=Weg anzeigen
+messages.sights_list.show_on_map=Auf der karte zeigen
+messages.sights_list.add_to_guide=Hinzuf\u00FCgen leitfaden
+messages.sights_list.want_to_visit=Besuchen m\u00F6chten
+
+messages.routes_list.title=Verf\u00FCgbaren routen
+messages.routes_list.route=Route
+messages.routes_list.description=Beschreibung
+messages.routes_list.map=Karte
+messages.routes_list.cost=Kosten
+messages.routes_list.buy=Kaufen
+
+messages.sight_description.add_to_route=Zu route hinzuf\u00FCgen
+messages.sight_description.add_to_guide=Zu leitfaden hinzuf\u00FCgen
+messages.sight_description.details=Details
+messages.sight_description.address=Adresse
+messages.sight_description.available_guides=Verf\u00FCgbaren leitfaden
+messages.sight_description.available_routes=Verf\u00FCgbaren routen
+
+messages.map.calculate_route=Route berechnen
+messages.map.find_me=Finde mich
+messages.map.route=Route
+
+messages.ads.slide1=Festival der ethnischen Kulturen bei Bobruisk, 25 Mai.
+messages.ads.slide2=New Kunstgalerie er\u00F6ffnet in Trinity Hill, Minsk.
+messages.ads.slide3_p1=Besuchen Sie unsere neue
+messages.ads.slide3_p2=leitfaden
+messages.ads.slide4=Probieren Sie einige neue exklusive F\u00FChrungen durch die

@@ -1,0 +1,32 @@
+<nav>
+    <ul>
+        <li>
+            <a href="${request.getContextPath()}${request.getServletPath()}/home">#springMessage("messages.navigation_bar.home")</a>
+        </li>
+        <li>
+            <a href="${request.getContextPath()}${request.getServletPath()}/map/view-map-page-all-sights">#springMessage("messages.navigation_bar.see_on_map")</a>
+        </li>
+        <li>
+            <a href="${request.getContextPath()}${request.getServletPath()}/sights/sights-list-page">#springMessage("messages.navigation_bar.sights")</a>
+        </li>
+        <li>
+            <a href="${request.getContextPath()}${request.getServletPath()}/routes/routes-list-page">#springMessage("messages.navigation_bar.routes")</a>
+        </li>
+    </ul>
+
+    <span>
+        <form accept-charset="utf-8" id="selectedLanguage" name="selectedLanguage"
+              action="${request.getContextPath()}${request.getServletPath()}/changeLocale" method="POST">
+            <select id="locale" name="locale">
+                <option class="en flag" value="en">#springMessage("messages.home_page.change_language.en")</option>
+                <option class="be flag" value="be">#springMessage("messages.home_page.change_language.be")</option>
+                <option class="ru flag" value="ru">#springMessage("messages.home_page.change_language.ru")</option>
+                <option class="de flag" value="de">#springMessage("messages.home_page.change_language.de")</option>
+            </select>
+            <input type="hidden" name="backUrl" id="backUrl" value="${backUrl}" />
+        </form>
+    </span>
+</nav>
+
+## OpenStreetMap link.
+## <a href="${request.getContextPath()}/attractions/view-map-page-all-sights/openStreetMap">Open street map</a>

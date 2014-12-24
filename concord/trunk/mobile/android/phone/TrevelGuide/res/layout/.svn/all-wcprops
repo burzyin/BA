@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/exadel/belarus_attractions/!svn/ver/169/concord/trunk/mobile/android/phone/TrevelGuide/res/layout
+END
+image_with_pin_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/image_with_pin_layout.xml
+END
+demo_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/demo_layout.xml
+END
+place_description_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/exadel/belarus_attractions/!svn/ver/169/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/place_description_layout.xml
+END
+qr_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/exadel/belarus_attractions/!svn/ver/169/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/qr_main.xml
+END
+open_map_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/open_map_layout.xml
+END
+gallery_screen_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/gallery_screen_layout.xml
+END
+profile_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/profile_layout.xml
+END
+near_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/exadel/belarus_attractions/!svn/ver/169/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/near_list_item.xml
+END
+near_list_fragment_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/near_list_fragment_layout.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/activity_main.xml
+END
+new_route_map_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/new_route_map_layout.xml
+END
+quick_action_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/exadel/belarus_attractions/!svn/ver/169/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/quick_action_layout.xml
+END
+near_grid_fragment_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/near_grid_fragment_layout.xml
+END
+gallery_item_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/gallery_item_layout.xml
+END
+near_list_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/near_list_layout.xml
+END
+place_description_list_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/place_description_list_layout.xml
+END
+relative_demo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/exadel/belarus_attractions/!svn/ver/166/concord/trunk/mobile/android/phone/TrevelGuide/res/layout/relative_demo.xml
+END

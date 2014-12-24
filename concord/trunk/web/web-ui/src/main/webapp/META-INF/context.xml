@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/belarus_attractions"
+              auth="Container"
+              type="javax.sql.DataSource"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/belarus_attractions"
+              username="dbuser"
+              password="password"
+              initialSize="1"
+              minIdle="1"
+              maxIdle="1"
+              maxActive="3"
+              maxWait="1000"
+              validationQuery="select 1 from dual"
+              jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer;org.apache.tomcat.jdbc.pool.interceptor.SlowQueryReport(threshold=1500)"
+            />
+</Context>

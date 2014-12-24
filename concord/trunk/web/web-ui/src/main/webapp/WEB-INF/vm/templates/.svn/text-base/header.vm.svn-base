@@ -1,0 +1,38 @@
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<header class="mainHeader">
+	<h1>#springMessage("messages.application.title")</h1>
+
+    <div id="fb-root"></div>
+    <div class="fb-login">
+        <fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic>
+        <span class="fb-login-button"><fb:login-button autologoutlink="true"></fb:login-button></span>
+    </div>
+
+    <div class="searchContainer">
+        <form>
+            <input class="searchField" name="field" type="text" />
+            <div class="searchDelete"><span class="searchX">x</span></div>
+            <input class="searchSubmit" name="submit" type="submit" value="Search" />
+        </form>
+    </div>
+
+    <div id="adSlides">
+		<div class="adContainer">
+			<div class="text-slide">
+			    <p>#springMessage("messages.ads.slide1")</p>
+			</div>
+			<div class="text-slide">
+                <p>#springMessage("messages.ads.slide2")</p>
+			</div>
+			<div class="text-slide">
+				<p>#springMessage("messages.ads.slide3_p1") <a class="route" href="${request.getContextPath()}${request.getServletPath()}/routes/routes-list-page">#springMessage("messages.ads.slide3_p2")</a>.</p>
+			</div>
+			<div class="text-slide">
+                <p>#springMessage("messages.ads.slide4") <a href="#">TourCompany</a>!</p>
+			</div>
+		</div>
+        <a href="#" class="prev"><img width="29" height="45" alt="Arrow Prev"></a>
+        <a href="#" class="next"><img width="29" height="45" alt="Arrow Next"></a>
+	</div>
+</header>
+</html>

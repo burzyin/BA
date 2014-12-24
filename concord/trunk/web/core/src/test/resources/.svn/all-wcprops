@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/test/resources
+END
+test-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/test/resources/test-config.xml
+END
+db-test-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/test/resources/db-test-config.xml
+END
+db-test-datasource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/test/resources/db-test-datasource.xml
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/test/resources/jdbc.properties
+END

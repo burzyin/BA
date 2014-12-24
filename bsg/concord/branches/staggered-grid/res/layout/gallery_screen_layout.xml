@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/nature">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/share"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/share_button" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp">
+
+        <com.exadel.bsgdemo.PagerContainer
+            android:id="@+id/screen_pager_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="-15dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal" />
+        </com.exadel.bsgdemo.PagerContainer>
+    </RelativeLayout>
+</RelativeLayout>

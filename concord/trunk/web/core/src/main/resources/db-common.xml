@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+    </bean>
+
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <tx:method name="save*" read-only="false" propagation="REQUIRED" rollback-for="Throwable"/>
+            <tx:method name="update*" read-only="false" propagation="REQUIRED" rollback-for="Throwable"/>
+            <tx:method name="delete*" read-only="false" propagation="REQUIRED" rollback-for="Throwable"/>
+            <tx:method name="*" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:pointcut id="poiServiceMethods" expression="@within(org.springframework.stereotype.Service)"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="poiServiceMethods"/>
+    </aop:config>
+
+    <tx:annotation-driven transaction-manager="txManager"/>
+
+    <bean id="txManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="pointOfInterestDao" class="com.exadel.belarusattractions.dao.pointOfInterest.PointOfInterestDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="pointOfInterestService" class="com.exadel.belarusattractions.service.PointOfInterestServiceImpl">
+        <property name="dao" ref="pointOfInterestDao"/>
+    </bean>
+
+    <bean id="sightDao" class="com.exadel.belarusattractions.dao.sight.SightDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="sightsService" class="com.exadel.belarusattractions.service.SightsServiceImpl">
+        <property name="dao" ref="sightDao"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+D:\project\belarusAttraction\android\phone\.metadata\.plugins\org.eclipse.jdt.core
+912243137.index
+3569354164.index
+1326499660.index
+3348169892.index
+1417927019.index
+346492242.index
+1010725671.index
+2667389249.index
+2914740309.index

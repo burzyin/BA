@@ -1,0 +1,55 @@
+<html>
+<head>
+    <link rel="stylesheet" href="${request.getContextPath()}/css/list.css">
+    <script type="text/javascript">
+        var route = $routesList;
+        $(function () {
+            $("a[name='route']").click(function () {
+                var id = $(this).attr('id');
+                postToUrl(contextPath + servletPath + "/map/view-route-page", "sightsId", route[id].wayPoints);
+            });
+        });
+    </script>
+</head>
+<body>
+    #set($page_title = "Routes list")
+    <header>
+        <h2>#springMessage("messages.routes_list.title")</h2>
+    </header>
+    <table>
+        <tr>
+            <td>
+                <h3>#springMessage("messages.routes_list.route")</h3>
+            </td>
+            <td>
+                <h3>#springMessage("messages.routes_list.description")</h3>
+            </td>
+            <td>
+                <h3>#springMessage("messages.routes_list.map")</h3>
+            </td>
+            <td>
+                <h3>#springMessage("messages.routes_list.cost")</h3>
+            </td>
+        </tr>
+        #foreach($route in $routesList)
+            <tr>
+                <td>
+                    $route.title
+                </td>
+                <td>
+                    $route.description
+                </td>
+                <td>
+                    <a href="#" name="route" id="$route.id">#springMessage("messages.sights_list.show_on_map")</a>
+                </td>
+                <td>
+                    $route.cost
+                </td>
+                <td>
+                    <button type="button" value="$route.id">#springMessage("messages.routes_list.buy")</button>
+                </td>
+            </tr>
+        #end
+    </table>
+</body>
+</html>

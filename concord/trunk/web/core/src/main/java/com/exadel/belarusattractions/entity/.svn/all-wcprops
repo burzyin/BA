@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/java/com/exadel/belarusattractions/entity
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/java/com/exadel/belarusattractions/entity/Address.java
+END
+Video.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/java/com/exadel/belarusattractions/entity/Video.java
+END
+Photo.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/java/com/exadel/belarusattractions/entity/Photo.java
+END
+Content.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/java/com/exadel/belarusattractions/entity/Content.java
+END
+Contact.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/java/com/exadel/belarusattractions/entity/Contact.java
+END
+PointOfInterest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/java/com/exadel/belarusattractions/entity/PointOfInterest.java
+END

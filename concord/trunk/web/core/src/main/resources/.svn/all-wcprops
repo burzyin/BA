@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/resources
+END
+service-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/resources/service-config.xml
+END
+db-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/resources/db-config.xml
+END
+openStreetMap-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/exadel/belarus_attractions/!svn/ver/122/concord/trunk/web/core/src/main/resources/openStreetMap-config.xml
+END
+db-common.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/resources/db-common.xml
+END
+googleMap-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/exadel/belarus_attractions/!svn/ver/122/concord/trunk/web/core/src/main/resources/googleMap-config.xml
+END
+db-datasource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/resources/db-datasource.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/exadel/belarus_attractions/!svn/ver/182/concord/trunk/web/core/src/main/resources/hibernate.cfg.xml
+END

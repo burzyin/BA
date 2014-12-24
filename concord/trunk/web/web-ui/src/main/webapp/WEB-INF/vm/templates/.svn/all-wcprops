@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/webapp/WEB-INF/vm/templates
+END
+footer.vm
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/exadel/belarus_attractions/!svn/ver/120/concord/trunk/web/web-ui/src/main/webapp/WEB-INF/vm/templates/footer.vm
+END
+navigationBar.vm
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/exadel/belarus_attractions/!svn/ver/175/concord/trunk/web/web-ui/src/main/webapp/WEB-INF/vm/templates/navigationBar.vm
+END
+header.vm
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/webapp/WEB-INF/vm/templates/header.vm
+END
+layout.vm
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/exadel/belarus_attractions/!svn/ver/183/concord/trunk/web/web-ui/src/main/webapp/WEB-INF/vm/templates/layout.vm
+END

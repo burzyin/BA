@@ -1,0 +1,91 @@
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="${request.getContextPath()}/css/sightDescription.css" />
+    <script type="text/javascript" src=$properties.key></script>
+    <script charset="utf-8" src="${request.getContextPath()}/js/maps/googleMap/control.js"></script>
+    <script charset="utf-8" src="${request.getContextPath()}/js/pages/sightDescription.js"></script>
+
+    <script type="text/javascript">
+        var mapSettings = $.parseJSON($properties.toJsString());
+        var sight = [$.parseJSON($sight.toJsString())];
+        var routes = $routes;
+
+        $(function () {
+            initGoogleMap('mapWrapper', '', '', mapSettings, sight, 0);
+
+            initGallery();
+
+            $(document).tooltip();
+
+            $('#guideButton, #routeButton').button('disable');
+
+            initRoutes(routes);
+        });
+    </script>
+
+#set($page_title = "Belarus Attractions: $sight.name")
+<div id="poiContentContainer">
+	<div id="poiDetailContainer" class="columns">
+		<section id="poiPhotoContainer">
+			<img id="poiPhoto" alt="$sight.name's photo" src="$sight.pictogramUrl">
+                <ul class="gallery">
+                    #foreach($photo in $sight.photos)
+                        <li>
+                            <img alt="$photo.name" src="$photo.url">
+                        </li>
+                    #end
+                </ul>
+		</section>
+		<section id="poiMapContainer">
+			<div id="mapWrapper"></div>
+            <div class="details"><a href="${request.getContextPath()}${request.getServletPath()}/map/selected-sights/$sight.id">View map</a></div>
+		</section>
+		<section id="poiInfoContainer">
+            <h3>#springMessage("messages.sight_description.details"):</h3>
+    		<ul class="practicalDetails">
+                <li id="address">
+				    <strong>#springMessage("messages.sight_description.address")</strong>
+				    <br />
+				    <address>$sight.address</address>
+			    </li>
+			</ul>
+		</section>
+        <section id="poiRoutesList" class="list">
+            <h3>#springMessage("messages.sight_description.available_routes"):</h3>
+            <div>
+                <ul>
+                    #set($count = 0)
+                    #foreach($route in $routes)
+                        <li>
+                            <a href="#" name="route" count="$count">$route.name</a>
+                        </li>
+                        #set($count = $count + 1)
+                    #end
+                </ul>
+            </div>
+        </section>
+        <section id="poiGuidesList" class="list">
+            <h3>#springMessage("messages.sight_description.available_guides"):</h3>
+            <div>
+                <ul>
+                    <li><a href="">Guide 1</a></li>
+                    <li><a href="">Guide 2</a></li>
+                    <li><a href="">Guide 3</a></li>
+                    <li><a href="">Guide 4</a></li>
+                    <li><a href="">Guide 5</a></li>
+                </ul>
+            </div>
+        </section>
+	</div>
+	<div id="poiDescriptionContainer" class="columns">
+		<article>
+			<header>
+				<h2>$sight.name</h2>
+			</header>
+			<p>$sight.longDescription</p>
+            <div id="poiControls">
+                <span name="It is not available yet"><button type="button" id="routeButton">#springMessage("messages.sight_description.add_to_route")</button></span>
+                <span name="It is not available yet"><button type="button" id="guideButton">#springMessage("messages.sight_description.add_to_guide")</button></span>
+            </div>
+		</article>
+	</div>
+</div>

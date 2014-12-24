@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="openMapPropertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:/openStreetMap.properties"/>
+        <property name="placeholderPrefix" value="$osm{"/>
+        <property name="placeholderSuffix" value="}"/>
+    </bean>
+
+    <bean id="openStreetMapProperties" class="com.exadel.belarusattractions.dto.map.properties.OpenStreetMapProperties">
+        <property name="initLatitude" value="$osm{openStreetMap.initLatitude}"/>
+        <property name="initLongitude" value="$osm{openStreetMap.initLongitude}"/>
+        <property name="initZoom" value="$osm{openStreetMap.initZoom}"/>
+        <property name="initMapType" value="$osm{openStreetMap.initMapType}"/>
+        <property name="initZoomOnDoubleClick" value="$osm{openStreetMap.initZoomOnDoubleClick}"/>
+    </bean>
+
+</beans>

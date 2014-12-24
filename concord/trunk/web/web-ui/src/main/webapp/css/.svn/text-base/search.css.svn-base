@@ -1,0 +1,56 @@
+.searchField {
+    float: left;
+    width: 150px;
+    height: 25px;
+    line-height: 20px;
+    text-indent: 10px;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    color: #333;
+    background: #fff;
+    border: solid 1px #d9d9d9;
+    border-top: solid 1px #c0c0c0;
+    border-right: none;
+}
+
+.searchDelete {
+    float: left;
+    width: 13px;
+    height: 23px;
+    line-height: 21px;
+    padding: 0 10px 0 10px;
+    margin-right: 5px;
+    font-family: "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+    font-size: 22px;
+    background: #fff;
+    border: solid 1px #d9d9d9;
+    border-top: solid 1px #c0c0c0;
+    border-left: none;
+}
+
+.searchDelete .searchX {
+    color: #74b2e2;
+    cursor: pointer;
+    display: none;
+}
+
+.searchDelete .searchX:hover {
+    color: #1394d8;
+}
+
+.searchSubmit {
+    cursor: pointer;
+    width: 45px;
+    height: 25px;
+    line-height: 0;
+    font-size: 0;
+    text-indent: -999px;
+    color: transparent;
+    background: url(http://www.app.by/img/ico-search.png) no-repeat center #3baae3;
+    border: 1px solid #38a9ff;
+}
+
+.searchSubmit:hover {
+    background: url(http://www.app.by/img/ico-search.png) no-repeat center #1394d8;
+    border: 1px solid #74b2e2;
+}

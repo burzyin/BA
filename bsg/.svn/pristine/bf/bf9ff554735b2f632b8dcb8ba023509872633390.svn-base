@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.exadel.bsgdemo.near.grid.imageviews.ScaleImageView android:id="@+id/place_icon"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:src="@null" />
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/place_icon" android:background="#55000000"
+        android:orientation="horizontal" android:layout_centerVertical="true">
+
+        <TextView android:id="@+id/place_title" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:paddingLeft="5dp"
+            android:paddingRight="60dp" android:textColor="@android:color/white"
+            android:textSize="12sp" android:layout_centerVertical="true" />
+
+        <Button android:id="@+id/place_like" android:layout_width="30dp"
+            android:layout_height="wrap_content" android:layout_alignParentRight="true"
+            android:scaleX="0.5" android:scaleY="0.5" android:focusable="false"
+            android:focusableInTouchMode="false" android:background="@android:color/transparent"
+            android:drawableTop="@drawable/heart_c" android:textSize="13sp"
+            android:text="@string/number" android:textColor="@android:color/white"
+            android:layout_centerVertical="true" />
+
+        <Button android:id="@+id/place_view" android:layout_width="30dp"
+            android:layout_height="wrap_content" android:layout_marginRight="30dp"
+            android:layout_alignRight="@id/place_like" android:scaleX="0.5" android:scaleY="0.5"
+            android:focusable="false" android:focusableInTouchMode="false"
+            android:background="@android:color/transparent" android:drawableTop="@drawable/eye_c"
+            android:textSize="13sp" android:text="@string/number"
+            android:textColor="@android:color/white" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

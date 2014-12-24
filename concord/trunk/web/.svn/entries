@@ -1,0 +1,80 @@
+10
+
+dir
+183
+https://subversion.exadel.com/exadel/belarus_attractions/concord/trunk/web
+https://subversion.exadel.com/exadel/belarus_attractions
+
+
+
+2013-04-05T08:04:22.651384Z
+183
+apavlov
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+47f5548c-2330-11e2-b20f-bd4c38f1c7ba
+
+static-content
+dir
+
+utils
+dir
+
+database
+dir
+
+common
+dir
+
+core
+dir
+
+web-ui
+dir
+
+pom.xml
+file
+
+
+
+
+2013-06-19T15:58:26.949725Z
+f033923fabe2183d4094df34ab763c3f
+2013-03-21T15:31:53.238422Z
+182
+apavlov
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7321
+

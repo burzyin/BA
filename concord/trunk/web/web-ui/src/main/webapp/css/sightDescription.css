@@ -1,0 +1,110 @@
+.list {
+    text-align: center;
+}
+
+.list div {
+    width: 100%;
+    background: #2ca9e4;
+}
+
+.list ul {
+    text-align: center;
+    padding: 7px;
+}
+
+.list li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.list a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff
+}
+
+.list a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+div.details {
+    text-align: right;
+    padding-right: 10px;
+}
+
+div.details a {
+    display: inline;
+    font-size: 0.77em;
+}
+
+.active {
+    border: 1px solid #36baff !important;
+    -webkit-box-shadow: 0 0 3px #36baff;
+    box-shadow: 0 0 3px #36baff;
+}
+
+.gallery {
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.gallery li {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+.gallery li img {
+    max-width: 20%;
+    height: auto;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+#poiDetailContainer {
+    width: 26.5%;
+    float: left;
+}
+
+#poiDetailContainer h2 {
+    margin-bottom: 4px
+}
+
+#poiDescriptionContainer {
+    margin-left: 27%;
+    padding-left: 20px;
+}
+
+#poiDescriptionContainer header {
+    padding-bottom: 10px;
+}
+
+#poiControls {
+    text-align: right;
+}
+
+#poiInfoContainer {
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
+}
+
+#poiInfoContainer ul {
+    margin: 0;
+}
+
+#poiPhotoContainer {
+    text-align: center;
+}
+
+#poiPhoto {
+    max-width: 100%;
+    height: auto;
+}
+
+#mapWrapper {
+    margin: 5px auto 0;
+    max-width: 90%;
+    height: 25%;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <bean id="locale_ru" class="java.util.Locale">
+        <constructor-arg value="ru"/>
+        <constructor-arg value="RU"/>
+    </bean>
+
+    <bean id="locale_es" class="java.util.Locale">
+        <constructor-arg value="es"/>
+        <constructor-arg value="ES"/>
+    </bean>
+
+    <bean id="locale_en" class="java.util.Locale">
+        <constructor-arg value="en"/>
+        <constructor-arg value="GB"/>
+    </bean>
+
+    <bean id="locale_be" class="java.util.Locale">
+        <constructor-arg value="be"/>
+        <constructor-arg value="BY"/>
+    </bean>
+
+    <bean id="locale_de" class="java.util.Locale">
+        <constructor-arg value="de"/>
+        <constructor-arg value="DE"/>
+    </bean>
+
+
+    <bean id="supportedLocales" class="com.exadel.belarusattractions.internationalization.SupportedLocales">
+        <property name="locales">
+            <util:list list-class="java.util.ArrayList">
+                <ref bean="locale_ru"/>
+                <ref bean="locale_en"/>
+                <ref bean="locale_be"/>
+                <ref bean="locale_de"/>
+            </util:list>
+        </property>
+    </bean>
+
+    <bean id="localeValidator" class="com.exadel.belarusattractions.internationalization.LocaleValidator">
+        <property name="defaultLocale" ref="locale_en"/>
+        <property name="supportedLocales" ref="supportedLocales"/>
+    </bean>
+</beans>

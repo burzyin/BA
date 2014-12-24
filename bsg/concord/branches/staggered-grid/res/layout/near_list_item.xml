@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/place_icon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/botanic_garden"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:contentDescription="@string/place_icon" />
+
+    <LinearLayout
+        android:id="@+id/near_text_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/place_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/guide_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/guide_item_position"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:text="@string/minsk"
+                android:enabled="false" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:layout_marginLeft="5dp"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/eye_c"
+                android:textSize="15sp"
+                android:text="@string/number" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:layout_marginLeft="5dp"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/heart_c"
+                android:textSize="15sp"
+                android:text="@string/number" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/distance_bg"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/distance" />
+    </LinearLayout>
+</RelativeLayout>

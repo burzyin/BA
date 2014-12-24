@@ -1,0 +1,193 @@
+<settings> 
+<localRepository>c:\Users\abasharkevich\.m2\repository</localRepository>
+<!--<localRepository>C:\Users\abasharkevich\.m2\repository</localRepository>-->
+<servers> 
+	<!--<server>
+		<id>WK central</id>
+		<username>BW-SL\andrei.basharkevich</username>
+		<password>Macd_nyf</password>
+	</server>
+	<server>
+		<id>WK central-snapshot</id>
+		<username>BW-SL\andrei.basharkevich</username>
+		<password>Macd_nyf</password>
+	</server>
+	<server> 
+		<id>maven-release-group-repository</id> 
+		<username>maven</username> 
+		<password>Maven</password>
+	</server> 
+	<server> 
+		<id>maven-snapshot-group-repository</id> 
+		<username>maven</username> 
+		<password>Maven</password>
+	</server>-->
+	<!--<server>
+		<id>website</id>
+		<username>weblogic.admin</username>
+		<password>weblogic1</password>
+	</server>-->
+	
+	<!--<server>
+            <id>pwi.reports.wolterskluwer.com</id>
+            <username>weblogic.admin</username>
+            <password>weblogic1</password>
+			<filePermissions>664</filePermissions>
+            <directoryPermissions>755</directoryPermissions>			
+            <configuration>
+                <sshExecutable>plink</sshExecutable>
+                <scpExecutable>pscp</scpExecutable>
+            </configuration>
+    </server>-->
+	
+	<server>
+		<id>maven-release-group-repository</id>
+		<username>maven</username>
+		<password>Maven</password>
+    </server> 
+	<server>
+		<id>maven-snapshot-group-repository</id>
+		<username>maven</username>
+		<password>Maven</password>
+    </server>	
+	<server>
+		<id>nexus-release-repository</id>
+		<username>maven</username>
+		<password>maven</password>
+	</server> 
+	 <server>
+		<id>nexus-release-repository1</id>
+		<username>maven</username>
+		<password>maven</password>
+	</server> 
+	<server>
+		<id>nexus-snapshot-repository</id>
+		<username>maven</username>
+		<password>maven</password>
+	</server>
+	
+	<!--<server>
+		<id>wk-release</id>
+		<username>BW-SL\andrei.basharkevich</username>
+		<password>Macd_nyf</password>
+    </server>
+    <server>
+		<id>wk-snapshot</id>
+		<username>BW-SL\andrei.basharkevich</username>
+		<password>Macd_nyf</password>
+    </server>-->
+	
+	<server>
+		<id>wk-release</id>
+		<username>maven</username>
+		<password>maven</password>
+    </server>
+    <server>
+		<id>wk-snapshot</id>
+		<username>maven</username>
+		<password>maven</password>
+    </server>
+	
+</servers> 
+<profiles> 
+	<!--<profile> 
+		<id>mantle-group-profile</id> 
+		<repositories> 
+			<repository> 
+				<id>central</id> 
+				<url>http://10.208.222.44:5590/maven-release/repository/</url> 
+				<releases> 
+					<enabled>true</enabled>					
+					<checksumPolicy>warn</checksumPolicy> 
+				</releases>
+				<snapshots>
+					<enabled>false</enabled>
+				</snapshots>
+			</repository> 
+			<repository> 
+				<id>central-snapshot</id> 
+				<url>http://10.208.222.44:5590/maven-snapshot/repository/</url> 
+				<releases>
+					<enabled>false</enabled>
+				</releases>
+				<snapshots> 
+					<enabled>true</enabled>					 
+					<checksumPolicy>warn</checksumPolicy> 
+				</snapshots> 
+			</repository> 
+		</repositories> 
+		<pluginRepositories> 
+			<pluginRepository>
+				<id>Plugin Repo</id> 
+				<url>http://10.208.222.44:5590/maven-release/repository/</url> 
+				<snapshots>
+					<enabled>false</enabled>
+				</snapshots>
+			</pluginRepository>			
+		</pluginRepositories> 
+	</profile> 
+     <profile>
+       <id>gwt</id> 
+       <properties>
+         <google.webtoolkit.home>C:\Users\abasharkevich\.m2\repository\com\google\gwt\gwt-dev\1.7.0\</google.webtoolkit.home>
+       </properties>
+	<repositories> 
+		<repository> 
+			<id>ibiblio.org</id> 
+			<url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url> 
+			<snapshots> 
+				<enabled>false</enabled> 
+				<updatePolicy>always</updatePolicy> 
+				<checksumPolicy>warn</checksumPolicy> 
+			</snapshots> 
+		</repository> 
+		<repository> 
+			<id>gwt-maven</id> 
+			<url>http://gwt-maven.googlecode.com/svn/trunk/mavenrepo/</url> 
+			<snapshots> 
+				<enabled>false</enabled> 
+				<updatePolicy>always</updatePolicy> 
+				<checksumPolicy>warn</checksumPolicy> 
+			</snapshots> 
+		</repository> 
+		<repository> 
+			<id>maven</id> 
+			<url>https://repository.jboss.org/nexus/content/groups/public</url>
+			<snapshots> 
+				<enabled>false</enabled> 
+				<updatePolicy>always</updatePolicy> 
+				<checksumPolicy>warn</checksumPolicy> 
+			</snapshots> 
+		</repository>
+	</repositories> 
+     </profile>-->
+	 
+	<profile>
+   <id>nexus</id>
+   <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+
+   <repositories>    
+		<repository>
+			<id>nexus-release-repository</id>
+			
+			<url>https://nexus.bw-sl.com/nexus/content/repositories/releases</url>
+					<releases>
+			  <enabled>true</enabled>
+			  <updatePolicy>daily</updatePolicy>
+			  <checksumPolicy>warn</checksumPolicy>
+			 </releases>
+		</repository>
+    
+   </repositories>
+  </profile>
+  
+  
+</profiles>
+
+<activeProfiles> 
+	<activeProfile>nexus</activeProfile> 
+ 
+</activeProfiles> 
+</settings>

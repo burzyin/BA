@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/bottom_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/bottom_action_bar"
+        android:background="@drawable/bottom_bg"
+        android:gravity="bottom"
+        android:padding="2dp"
+        android:paddingTop="2dp">
+
+        <Button
+            android:id="@+id/my_profile_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab1"
+            android:text="@string/my_profile_button"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:singleLine="false" />
+
+        <Button
+            android:id="@+id/near_places_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab2"
+            android:text="@string/near_places_button"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/popular_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab3"
+            android:text="@string/popular_button"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab4"
+            android:text="@string/search_button"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/new_route_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/tab5"
+            android:text="@string/new_route_button"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</merge>

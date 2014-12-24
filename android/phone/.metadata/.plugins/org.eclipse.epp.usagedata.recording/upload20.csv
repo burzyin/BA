@@ -1,0 +1,226 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.php.core,3.0.0.v20110516-1100,"org.eclipse.php.core",1360251638797
+error,log,,,"Errors occurred during the build.",1360251638904
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1360251639111
+error,log,,,"Errors occurred during the build.",1360251639112
+started,bundle,org.eclipse.equinox.p2.artifact.repository,1.1.101.R37x_v20110714,"org.eclipse.equinox.p2.artifact.repository",1360251644618
+started,bundle,org.eclipse.equinox.p2.touchpoint.eclipse,2.1.1.R37x_v20110815-0935,"org.eclipse.equinox.p2.touchpoint.eclipse",1360251644767
+error,log,,,"No repository found at http://download.jboss.org/jbosstools/updates/indigo/SR1/.",1360251647387
+error,log,,,"No repository found at http://download.eclipse.org/technology/m2e/releases/.",1360251647714
+error,log,,,"No repository found at http://download.eclipse.org/eclipse/updates/3.7.",1360251647840
+error,log,,,"No repository found at http://download.eclipse.org/webtools/repository/indigo.",1360251649024
+error,log,,,"No repository found at http://marketplace.eclipse.org/repo/.",1360251649133
+error,log,,,"No repository found at http://archive.eclipse.org/mylyn/drops/3.8.0/v20120612-0600.",1360251649242
+error,log,,,"No repository found at jar:file:/D:/Install/net.sf.wdte.js_0.0.9.zip!/.",1360251649280
+error,log,,,"Unable to read repository at jar:file:/D:/Install/net.sf.wdte.js_0.0.9.zip/content.xml.",1360251649486
+error,log,,,"No repository found at http://download.jboss.org/jbosstools/updates/development/indigo.",1360251649585
+error,log,,,"No repository found at http://jadclipse.sf.net/update.",1360251649694
+error,log,,,"No repository found at http://jautodoc.sourceforge.net/update/.",1360251649788
+error,log,,,"No repository found at http://download.eclipse.org/mylyn/releases/indigo.",1360251649960
+error,log,,,"No repository found at http://archive.eclipse.org/eclipse/downloads/drops/M20110909-1335.",1360251650053
+started,bundle,org.eclipse.equinox.p2.director,2.1.0.v20110504-1715,"org.eclipse.equinox.p2.director",1360251650079
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110510,"org.eclipse.equinox.p2.garbagecollector",1360251650094
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251658085
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1360251658099
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1360251664424
+error,log,,,"Errors occurred during the build.",1360251664432
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251664464
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251665590
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251668147
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251677102
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1360251677115
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1360251677234
+error,log,,,"Errors occurred during the build.",1360251677573
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251677599
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1360251677789
+error,log,,,"Errors occurred during the build.",1360251678130
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1360251678321
+error,log,,,"Errors occurred during the build.",1360251678322
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251686486
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.project.buildAutomatically",1360251690155
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251692087
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251694811
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.project.cleanAction",1360251694823
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1360251694955
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1360251695065
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251695292
+error,log,,,"Errors occurred during the build.",1360251695911
+started,bundle,org.eclipse.jpt.common.core,1.0.1.v201108080010,"org.eclipse.jpt.common.core",1360251696591
+started,bundle,org.eclipse.jpt.jpa.core,3.0.1.v201109073010,"org.eclipse.jpt.jpa.core",1360251696591
+started,bundle,org.jboss.tools.common.model.ui,3.3.0.v20111208-2036-H34-M5,"org.jboss.tools.common.model.ui",1360251696676
+started,bundle,org.jboss.tools.jsf,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf",1360251697844
+started,bundle,org.jboss.tools.common.projecttemplates,3.3.0.v20111208-2036-H34-M5,"org.jboss.tools.common.projecttemplates",1360251698644
+started,bundle,org.jboss.tools.jst.web,3.3.0.v20111208-2115-H35-M5,"org.jboss.tools.jst.web",1360251698645
+started,bundle,org.jboss.tools.jst.web.tiles,3.3.0.v20111208-2115-H35-M5,"org.jboss.tools.jst.web.tiles",1360251698688
+started,bundle,org.jboss.tools.hibernate.xml,3.4.0.v20111213-1944-H40-M5,"org.jboss.tools.hibernate.xml",1360251698704
+started,bundle,org.jboss.tools.seam.xml,3.3.0.v20111207-1453-H52-M5,"org.jboss.tools.seam.xml",1360251698715
+started,bundle,org.jboss.tools.seam.pages.xml,3.3.0.v20111207-1453-H52-M5,"org.jboss.tools.seam.pages.xml",1360251698728
+started,bundle,org.jboss.tools.cdi.xml,1.2.0.v20111208-2203-H35-M5,"org.jboss.tools.cdi.xml",1360251698773
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251703314
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1360251713751
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1360251714439
+started,bundle,org.codehaus.groovy.eclipse.quickfix,2.6.1.xx-20120121-2200-e37,"org.codehaus.groovy.eclipse.quickfix",1360251714695
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110505-0800,"org.eclipse.jdt.junit",1360251714832
+started,bundle,org.jboss.tools.jst.jsp,3.3.0.v20111208-2115-H35-M5,"org.jboss.tools.jst.jsp",1360251718724
+started,bundle,org.jboss.tools.common.el.core,3.3.0.v20111208-2036-H34-M5,"org.jboss.tools.common.el.core",1360251718752
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1360251722225
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1360251726826
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1360251726937
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1360251728599
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1360251728822
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1360251728927
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1360251730534
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.project.buildAll",1360251766824
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1360251766898
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251767115
+error,log,,,"Errors occurred during the build.",1360251767305
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251775812
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251778062
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251779487
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1360251779731
+started,bundle,org.jboss.tools.common.text.ext,3.3.0.v20111208-2036-H34-M5,"org.jboss.tools.common.text.ext",1360251780214
+stopped,bundle,org.eclipse.m2e.logback.configuration,1.0.100.20110804-1717,"org.eclipse.m2e.logback.configuration",1360251781578
+stopped,bundle,com.springsource.sts.roo.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.roo.ui",1360251781578
+stopped,bundle,com.springsource.sts.maven,2.8.1.201111221000-RELEASE,"com.springsource.sts.maven",1360251781578
+stopped,bundle,org.codehaus.groovy.m2eclipse,2.6.1.xx-20120121-2200-e37,"org.codehaus.groovy.m2eclipse",1360251781578
+stopped,bundle,org.eclipse.m2e.discovery,1.0.100.20110804-1717,"org.eclipse.m2e.discovery",1360251781578
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.100.20110804-1717,"org.eclipse.m2e.refactoring",1360251781578
+stopped,bundle,org.eclipse.m2e.editor,1.0.100.20110804-1717,"org.eclipse.m2e.editor",1360251781578
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.100.20110804-1717,"org.eclipse.m2e.editor.xml",1360251781579
+stopped,bundle,org.jboss.tools.maven.cdi,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.cdi",1360251781579
+stopped,bundle,org.jboss.tools.maven.hibernate,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.hibernate",1360251781579
+stopped,bundle,org.jboss.tools.maven.jaxrs,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.jaxrs",1360251781579
+stopped,bundle,org.jboss.tools.maven.jbosspackaging,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.jbosspackaging",1360251781579
+stopped,bundle,org.jboss.tools.maven.seam,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.seam",1360251781579
+stopped,bundle,org.jboss.tools.maven.jsf,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.jsf",1360251781579
+stopped,bundle,org.jboss.tools.maven.portlet,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.portlet",1360251781579
+stopped,bundle,org.jboss.tools.maven.project.examples,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.project.examples",1360251781579
+stopped,bundle,org.jboss.tools.maven.ui,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.ui",1360251781579
+stopped,bundle,org.jboss.tools.maven.core,1.3.0.v20111209-0524-H40-M5,"org.jboss.tools.maven.core",1360251781579
+stopped,bundle,org.maven.ide.eclipse.wtp,0.14.0.20110928-2045,"org.maven.ide.eclipse.wtp",1360251781579
+stopped,bundle,org.eclipse.m2e.jdt,1.0.100.20110804-1717,"org.eclipse.m2e.jdt",1360251781579
+stopped,bundle,org.eclipse.m2e.launching,1.0.100.20110804-1717,"org.eclipse.m2e.launching",1360251781579
+stopped,bundle,org.jboss.tools.openshift.express.ui,2.3.0.v20111213-1457-H21-M5,"org.jboss.tools.openshift.express.ui",1360251781579
+stopped,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1360251781579
+stopped,bundle,org.jboss.tools.forge.ui,1.0.0.v20111208-2108-H31-M5,"org.jboss.tools.forge.ui",1360251781580
+stopped,bundle,com.atlassian.connector.eclipse.directclickthrough.ui,3.0.2.v20111010,"com.atlassian.connector.eclipse.directclickthrough.ui",1360251781681
+stopped,bundle,org.eclipse.m2e.core.ui,1.0.100.20110804-1717,"org.eclipse.m2e.core.ui",1360251781681
+stopped,bundle,org.eclipse.m2e.core,1.0.100.20110804-1717,"org.eclipse.m2e.core",1360251781689
+stopped,bundle,org.eclipse.jpt.dbws.eclipselink.ui,1.0.0.v201104110000,"org.eclipse.jpt.dbws.eclipselink.ui",1360251781689
+stopped,bundle,com.springsource.sts.roo.core,2.8.1.201111221000-RELEASE,"com.springsource.sts.roo.core",1360251781689
+stopped,bundle,com.springsource.sts.config.flow,2.8.1.201111221000-RELEASE,"com.springsource.sts.config.flow",1360251781689
+stopped,bundle,com.springsource.sts.grails.refactoring,2.8.1.201111221000-RELEASE,"com.springsource.sts.grails.refactoring",1360251781689
+stopped,bundle,com.springsource.sts.grails.editor.gsp,2.8.1.201111221000-RELEASE,"com.springsource.sts.grails.editor.gsp",1360251781689
+stopped,bundle,com.springsource.sts.grails.explorer,2.8.1.201111221000-RELEASE,"com.springsource.sts.grails.explorer",1360251781689
+stopped,bundle,com.springsource.sts.grails.editor.groovy,2.8.1.201111221000-RELEASE,"com.springsource.sts.grails.editor.groovy",1360251781689
+stopped,bundle,com.springsource.sts.grails.runonserver,2.8.1.201111221000-RELEASE,"com.springsource.sts.grails.runonserver",1360251781689
+stopped,bundle,com.springsource.sts.grails.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.grails.ui",1360251781690
+stopped,bundle,com.springsource.sts.grails.core,2.8.1.201111221000-RELEASE,"com.springsource.sts.grails.core",1360251781692
+stopped,bundle,com.springsource.sts.authoring,2.8.1.201111221000-RELEASE,"com.springsource.sts.authoring",1360251781692
+stopped,bundle,com.springsource.sts.ide.help,2.8.1.201111221000-RELEASE,"com.springsource.sts.ide.help",1360251781692
+stopped,bundle,com.springsource.sts.maven.legacy,2.8.1.201111221000-RELEASE,"com.springsource.sts.maven.legacy",1360251781692
+stopped,bundle,com.springsource.sts.server.insight.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.server.insight.ui",1360251781699
+stopped,bundle,com.springsource.sts.server.tc.ec2.core,2.8.1.201111221000-RELEASE,"com.springsource.sts.server.tc.ec2.core",1360251781699
+stopped,bundle,com.springsource.sts.server.tc.ec2.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.server.tc.ec2.ui",1360251781699
+stopped,bundle,com.springsource.sts.server.tc.vmware.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.server.tc.vmware.ui",1360251781699
+stopped,bundle,com.springsource.sts.server.tc.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.server.tc.ui",1360251781699
+stopped,bundle,com.springsource.sts.server.tc.vmware.core,2.8.1.201111221000-RELEASE,"com.springsource.sts.server.tc.vmware.core",1360251781699
+stopped,bundle,com.springsource.sts.ide.configurator,2.8.1.201111221000-RELEASE,"com.springsource.sts.ide.configurator",1360251781700
+stopped,bundle,com.springsource.sts.runtimeerroranalysis,2.8.1.201111221000-RELEASE,"com.springsource.sts.runtimeerroranalysis",1360251781700
+stopped,bundle,com.springsource.sts.ide.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.ide.ui",1360251781700
+stopped,bundle,com.springsource.sts.config.core,2.8.1.201111221000-RELEASE,"com.springsource.sts.config.core",1360251781700
+stopped,bundle,org.springframework.ide.eclipse.batch,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.batch",1360251781700
+stopped,bundle,org.springframework.ide.eclipse.ajdt.ui.visualiser,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.ajdt.ui.visualiser",1360251781700
+stopped,bundle,org.springframework.ide.eclipse.ajdt.ui.xref,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.ajdt.ui.xref",1360251781700
+stopped,bundle,org.springframework.ide.eclipse.aop.mylyn,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.aop.mylyn",1360251781700
+stopped,bundle,org.springframework.ide.eclipse.aop.ui.matcher,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.aop.ui.matcher",1360251781700
+stopped,bundle,org.springframework.ide.eclipse.aop.ui,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.aop.ui",1360251781700
+stopped,bundle,org.springframework.ide.eclipse.security,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.security",1360251781700
+stopped,bundle,org.springframework.ide.eclipse.aop.core,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.aop.core",1360251781701
+stopped,bundle,org.springframework.ide.eclipse.beans.ui.autowire,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.ui.autowire",1360251781701
+stopped,bundle,org.springframework.ide.eclipse.beans.core.autowire,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.core.autowire",1360251781701
+stopped,bundle,org.springframework.ide.eclipse.beans.mylyn,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.mylyn",1360251781701
+stopped,bundle,com.springsource.sts.frameworks.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.frameworks.ui",1360251781701
+stopped,bundle,org.springframework.ide.eclipse.beans.ui.refactoring,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.ui.refactoring",1360251781701
+stopped,bundle,org.springframework.ide.eclipse.integration,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.integration",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.mylyn,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.mylyn",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.osgi,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.osgi",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.webflow.mylyn,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.webflow.mylyn",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.webflow.ui,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.webflow.ui",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.webflow.ui.graph,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.webflow.ui.graph",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.webflow.ui.editor,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.webflow.ui.editor",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.webflow.core,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.webflow.core",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.beans.ui.editor,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.ui.editor",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.beans.ui.graph,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.ui.graph",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.beans.ui.search,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.ui.search",1360251781702
+stopped,bundle,org.springframework.ide.eclipse.beans.ui,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.ui",1360251781704
+stopped,bundle,org.springframework.ide.eclipse.beans.core.metadata,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.core.metadata",1360251781707
+stopped,bundle,org.springframework.ide.eclipse.beans.core,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.beans.core",1360251781708
+stopped,bundle,com.springsource.sts.content.core,2.8.1.201111221000-RELEASE,"com.springsource.sts.content.core",1360251781708
+stopped,bundle,com.springsource.sts.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.ui",1360251781708
+stopped,bundle,com.springsource.sts.core,2.8.1.201111221000-RELEASE,"com.springsource.sts.core",1360251781708
+stopped,bundle,com.springsource.sts.ide.osgi,2.8.1.201111221000-RELEASE,"com.springsource.sts.ide.osgi",1360251781708
+stopped,bundle,org.springframework.ide.eclipse.ui,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.ui",1360251781708
+stopped,bundle,org.springframework.ide.eclipse.core,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.core",1360251781708
+stopped,bundle,org.eclipse.equinox.weaving.aspectj,1.0.1.R3_7,"org.eclipse.equinox.weaving.aspectj",1360251781709
+stopped,bundle,org.springframework.ide.eclipse.osgi.targetdefinition,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.osgi.targetdefinition",1360251781709
+stopped,bundle,org.springframework.ide.eclipse.uaa,2.8.1.201111220115-RELEASE,"org.springframework.ide.eclipse.uaa",1360251781992
+stopped,bundle,com.atlassian.connector.eclipse.bamboo.ui,3.0.2.v20111010,"com.atlassian.connector.eclipse.bamboo.ui",1360251781992
+stopped,bundle,com.atlassian.connector.eclipse.bamboo.core,3.0.2.v20111010,"com.atlassian.connector.eclipse.bamboo.core",1360251781993
+stopped,bundle,com.atlassian.connector.eclipse.fisheye.ui,3.0.2.v20111010,"com.atlassian.connector.eclipse.fisheye.ui",1360251781993
+stopped,bundle,com.atlassian.connector.eclipse.fisheye.core,3.0.2.v20111010,"com.atlassian.connector.eclipse.fisheye.core",1360251781993
+stopped,bundle,com.atlassian.connector.eclipse.ui,3.0.2.v20111010,"com.atlassian.connector.eclipse.ui",1360251781993
+stopped,bundle,com.atlassian.connector.eclipse.core,3.0.2.v20111010,"com.atlassian.connector.eclipse.core",1360251781993
+stopped,bundle,com.atlassian.connector.eclipse.jira.ui,3.0.2.v20111010,"com.atlassian.connector.eclipse.jira.ui",1360251781996
+stopped,bundle,com.atlassian.connector.eclipse.jira.core,3.0.2.v20111010,"com.atlassian.connector.eclipse.jira.core",1360251782000
+stopped,bundle,com.springsource.sts.vmware.ui,2.8.1.201111221000-RELEASE,"com.springsource.sts.vmware.ui",1360251782000
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1360251782000
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.204.v201004211805,"org.eclipse.jst.ws.axis2.core",1360251782000
+stopped,bundle,org.eclipse.jst.ws.consumption,1.0.601.v201108230319,"org.eclipse.jst.ws.consumption",1360251782000
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.core,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.core",1360251782000
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.core",1360251782000
+stopped,bundle,org.eclipse.jst.ws.cxf.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.cxf.ui",1360251782000
+stopped,bundle,org.eclipse.jst.ws.cxf.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.core",1360251782000
+stopped,bundle,org.eclipse.jst.ws,1.0.509.v201108250610,"org.eclipse.jst.ws",1360251782001
+stopped,bundle,org.eclipse.wst.wsdl.ui,1.2.403.v201108240515,"org.eclipse.wst.wsdl.ui",1360251782001
+stopped,bundle,org.eclipse.wst.ws.ui,1.1.200.v201004211805,"org.eclipse.wst.ws.ui",1360251782001
+stopped,bundle,org.eclipse.wst.wsi.ui,1.0.502.v201104071820,"org.eclipse.wst.wsi.ui",1360251782001
+stopped,bundle,org.eclipse.wst.wsi,1.0.401.v201104071820,"org.eclipse.wst.wsi",1360251782001
+stopped,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1360251782001
+stopped,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.500.v201105122000,"org.eclipse.jst.j2ee.webservice.ui",1360251782001
+stopped,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1360251782001
+stopped,bundle,org.eclipse.wst.ws.parser,1.0.403.v201004211805,"org.eclipse.wst.ws.parser",1360251782001
+stopped,bundle,org.eclipse.jst.ws.jaxws.ui,1.0.100.v201104032053,"org.eclipse.jst.ws.jaxws.ui",1360251782001
+stopped,bundle,org.eclipse.jst.ws.jaxws.core,1.0.100.v201104031139,"org.eclipse.jst.ws.jaxws.core",1360251782001
+stopped,bundle,org.eclipse.datatools.enablement.oda.ws.ui,1.2.2.v201105111200,"org.eclipse.datatools.enablement.oda.ws.ui",1360251782001
+stopped,bundle,org.eclipse.datatools.enablement.oda.ws,1.2.2.v201106161731,"org.eclipse.datatools.enablement.oda.ws",1360251782001
+stopped,bundle,org.eclipse.wst.wsdl,1.2.202.v201108230355,"org.eclipse.wst.wsdl",1360251782001
+stopped,bundle,org.eclipse.wst.wsdl.validation,1.1.502.v201104071820,"org.eclipse.wst.wsdl.validation",1360251782001
+stopped,bundle,org.eclipse.wst.xsl.exslt.ui,1.0.0.v201006012005,"org.eclipse.wst.xsl.exslt.ui",1360251782002
+stopped,bundle,org.eclipse.wst.xsl.jaxp.debug.ui,1.0.200.v201103081922,"org.eclipse.wst.xsl.jaxp.debug.ui",1360251782002
+stopped,bundle,org.eclipse.wst.xsl.ui,1.1.200.v201103082057,"org.eclipse.wst.xsl.ui",1360251782002
+stopped,bundle,org.eclipse.wst.xml.xpath.ui,1.1.100.v201105030025,"org.eclipse.wst.xml.xpath.ui",1360251782002
+stopped,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1360251782002
+stopped,bundle,org.eclipse.wst.xsl.jaxp.launching,1.0.200.v201103081922,"org.eclipse.wst.xsl.jaxp.launching",1360251782002
+stopped,bundle,org.eclipse.wst.xsl.launching,1.0.200.v201103081922,"org.eclipse.wst.xsl.launching",1360251782002
+stopped,bundle,org.eclipse.wst.xsl.core,1.1.100.v201102270516,"org.eclipse.wst.xsl.core",1360251782002
+stopped,bundle,org.jboss.tools.jsf.vpe.ajax4jsf,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf.vpe.ajax4jsf",1360251782002
+stopped,bundle,org.jboss.tools.jsf.vpe.richfaces,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf.vpe.richfaces",1360251782002
+stopped,bundle,org.jboss.tools.jsf.vpe.facelets,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf.vpe.facelets",1360251782002
+stopped,bundle,org.jboss.tools.jsf.vpe.jbpm,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf.vpe.jbpm",1360251782002
+stopped,bundle,org.jboss.tools.jsf.vpe.jstl,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf.vpe.jstl",1360251782002
+stopped,bundle,org.jboss.tools.jsf.vpe.seam,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf.vpe.seam",1360251782002
+stopped,bundle,org.jboss.tools.jsf.vpe.jsf,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf.vpe.jsf",1360251782002
+stopped,bundle,org.jboss.tools.jsf.vpe.myfaces,3.3.0.v20111213-1958-H41-M5,"org.jboss.tools.jsf.vpe.myfaces",1360251782003
+stopped,bundle,org.jboss.tools.vpe.docbook,3.3.0.v20111208-2357-H33-M5,"org.jboss.tools.vpe.docbook",1360251782003
+stopped,bundle,org.jboss.tools.vpe.html,3.3.0.v20111208-2357-H33-M5,"org.jboss.tools.vpe.html",1360251782003
+stopped,bundle,org.jboss.tools.vpe.jsp,3.3.0.v20111208-2357-H33-M5,"org.jboss.tools.vpe.jsp",1360251782003
+stopped,bundle,org.jboss.tools.vpe.spring,3.3.0.v20111208-2357-H33-M5,"org.jboss.tools.vpe.spring",1360251782003
+stopped,bundle,org.jboss.tools.vpe,3.3.0.v20111208-2357-H33-M5,"org.jboss.tools.vpe",1360251782003
+stopped,bundle,org.eclipse.wst.xml.xpath.core,1.2.1.v201109010357,"org.eclipse.wst.xml.xpath.core",1360251782003
+stopped,bundle,org.eclipse.datatools.enablement.oda.xml.ui,1.2.1.v201104211630,"org.eclipse.datatools.enablement.oda.xml.ui",1360251782003
+stopped,bundle,org.eclipse.datatools.enablement.oda.xml,1.2.1.v201104121500,"org.eclipse.datatools.enablement.oda.xml",1360251782003
+stopped,bundle,com.beck.ep.wtool,2.4.0,"com.beck.ep.wtool",1360251782006
+stopped,bundle,org.eclipse.jst.jsf.apache.trinidad.tagsupport,1.1.200.v201104061711,"org.eclipse.jst.jsf.apache.trinidad.tagsupport",1360251782006
+stopped,bundle,org.eclipse.jst.jsf.facelet.ui,1.0.1.v201104032306,"org.eclipse.jst.jsf.facelet.ui",1360251782006
+stopped,bundle,org.eclipse.jst.jsf.facelet.core,1.0.100.v201104191527,"org.eclipse.jst.jsf.facelet.core",1360251782006

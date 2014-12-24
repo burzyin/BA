@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="googleMapPropertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:/googleMap.properties"/>
+        <property name="placeholderPrefix" value="$gm{"/>
+        <property name="placeholderSuffix" value="}"/>
+    </bean>
+
+    <bean id="googleMapProperties" class="com.exadel.belarusattractions.dto.map.properties.GoogleMapProperties">
+        <property name="key" value="$gm{googleMap.key}"/>
+        <property name="initLatitude" value="$gm{googleMap.initLatitude}"/>
+        <property name="initLongitude" value="$gm{googleMap.initLongitude}"/>
+        <property name="initZoom" value="$gm{googleMap.initZoom}"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,10 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_action_bar"
+            android:layout_below="@+id/top_switcher"
+            android:animateLayoutChanges="true"
+            android:gravity="center"
+		    android:padding="5dp"
+		    android:alwaysDrawnWithCache="true"/>

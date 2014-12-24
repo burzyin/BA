@@ -1,0 +1,68 @@
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+    $response.setHeader("Expires", "Mon, 23 Aug 1982 12:00:00 GMT")
+    $response.setHeader("Cache-Control", "no-store, no-cache, must-revalidate")
+    $response.addHeader("Cache-Control", "post-check=0, pre-check=0")
+    $response.setHeader("Pragma", "no-cache")
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="${request.getContextPath()}/css/belarus-attractions-theme/jquery-ui-1.10.2.custom.css">
+    <link rel="stylesheet" href="${request.getContextPath()}/css/belarus-attractions-theme/jquery.ui.selectmenu.css">
+    <link rel="stylesheet" href="${request.getContextPath()}/css/common.css">
+    <link rel="stylesheet" href="${request.getContextPath()}/css/search.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  	<script src="${request.getContextPath()}/js/jquery/jquery-ui-1.10.2.custom.js"></script>
+  	<script src="${request.getContextPath()}/js/jquery/jquery.ui.selectmenu.js"></script>
+    <script src="${request.getContextPath()}/js/jquery/jquery.easing.1.3.js"></script>
+    <script src="${request.getContextPath()}/js/jquery/slides.jquery.js"></script>
+    <script src="${request.getContextPath()}/js/search.js"></script>
+    <script src="${request.getContextPath()}/js/common.js"></script>
+    <script src="${request.getContextPath()}/js/facebook.js"></script>
+    <title>$!page_title</title>
+    <script>
+        var contextPath = "${request.getContextPath()}",
+                servletPath = "${request.getServletPath()}",
+                locale = '${locale}';
+
+        $(function () {
+            connectFacebookSDK(locale);
+
+            initButtons();
+            initLocaleSelect();
+            initSearchDeleteButton(".searchField", ".searchX");
+            initSearchPlaceholder(".searchField", $("#search_message").text());
+            initAdSlides();
+        });
+
+    </script>
+</head>
+
+<body>
+    #set($page_title="Belarus Attraction")
+
+    <div class="fb-like">
+        <fb:like send="false" layout="box_count" show_faces="false" style="position:absolute;right:0;"></fb:like>
+    </div>
+
+    <div class="main">
+        <div class="wrapper">
+            #parse("templates/header.vm")
+
+            <section id="navigationContainer">
+                #parse("templates/navigationBar.vm")
+            </section>
+
+            <section id="contentContainer">
+                $screen_content
+            </section>
+
+            <div class="spacer"></div>
+        </div>
+
+    #parse("templates/footer.vm")
+    </div>
+    <span id="search_message" hidden>#springMessage("messages.search")</span>
+    <div id="dialog">
+      <p></p>
+    </div>
+</body>
+</html>

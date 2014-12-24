@@ -1,0 +1,3 @@
+<%
+    response.sendRedirect("belarus/home");
+%>

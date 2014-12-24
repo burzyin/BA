@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="@drawable/nature">
+		
+        <ImageButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/title_bar"
+	        android:src="@drawable/share" 
+	        android:background="@android:color/transparent"
+	        android:layout_centerHorizontal="true"
+	        android:layout_above="@+id/m_gallery"/>
+        
+        <Gallery
+            android:id="@+id/m_gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bottom_action_bar"
+            android:layout_below="@+id/title_bar"
+            android:layout_marginTop="5dp"/>
+        
+</RelativeLayout>
